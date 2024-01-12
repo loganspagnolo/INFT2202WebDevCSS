@@ -14,7 +14,7 @@ groceryList.appendChild(newListItem);
 
 // ADD NEW ITEM START OF LIST
 // Create element
-const newListItemEnd = document.createElement("li");
+const newListItemStart = document.createElement("li");
 // Create text node
 const listItemContentStart = document.createElement("Apples");
 // Add text node to element
