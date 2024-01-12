@@ -1,6 +1,7 @@
 // ADDING ITEMS TO START AND END OF LIST
 // Get the <ul> element
 var groceryList = document.getElementById("groceries");
+
 // ADD NEW ITEM TO END OF LIST
 // Create element
 const newListItem = document.createElement("li");
@@ -16,7 +17,7 @@ groceryList.appendChild(newListItem);
 // Create element
 const newListItemStart = document.createElement("li");
 // Create text node
-const listItemContentStart = document.createElement("Apples");
+const listItemContentStart = document.createTextNode("Apples");
 // Add text node to element
 newListItemStart.appendChild(listItemContentStart)
 // Add element to list
